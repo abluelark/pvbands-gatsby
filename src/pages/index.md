@@ -5,11 +5,17 @@ image: /img/blurredband.png
 heading: Calendar
 subheading: NEW SITE UNDER CONSTRUCTION - Clark
 mainpitch:
-  title: Pine View Music
+  title: Why Kaldi
   description: >
-The purpose of the Pine View music department is to foster the technical, and intellectual growth of studetns who participate in any of fits programs.
+    Kaldi is the coffee store for everyone who believes that great coffee
+    shouldn't just taste good, it should do good too. We source all of our beans
+    directly from small scale sustainable farmers and make sure part of the
+    profits are reinvested in their communities.
 description: >-
-Add and view our calendar. [Click me](https://calendar.google.com/calendar/r?cid=washk12.org_dgqfnontj4pckb0umrrsgo715g@group.calendar.google.com){: .btn}
+  Kaldi is the ultimate spot for coffee lovers who want to learn about their
+  java’s origin and support the farmers that grew it. We take coffee production,
+  roasting and brewing seriously and we’re glad to pass that knowledge to
+  anyone.
 intro:
   blurbs:
     - image: /img/coffee.png

@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Pine View Bands  
-image: /img/home-jumbotron.jpg
+image: /img/blurredband.png
 heading: Always Higher
 subheading: Creating musicians, collaborators, and memories.
 mainpitch:

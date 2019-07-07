@@ -7,9 +7,9 @@ subheading: NEW SITE UNDER CONSTRUCTION - Clark
 mainpitch:
   title: Pine View Music
   description: >
-	The purpose of the Pine View music department is to foster the technical, and intellectual growth of studetns who participate in any of fits programs.
+The purpose of the Pine View music department is to foster the technical, and intellectual growth of studetns who participate in any of fits programs.
   description: >-
-	Add and view our calendar. [Click me](https://calendar.google.com/calendar/r?cid=washk12.org_dgqfnontj4pckb0umrrsgo715g@group.calendar.google.com){: .btn}
+  Add and view our calendar. [Click me](https://calendar.google.com/calendar/r?cid=washk12.org_dgqfnontj4pckb0umrrsgo715g@group.calendar.google.com){: .btn}
 intro:
   blurbs:
     - image: /img/coffee.png

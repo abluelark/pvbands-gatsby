@@ -3,7 +3,7 @@ templateKey: index-page
 title: Pine View Bands  
 image: /img/blurredband.png
 heading: Always Higher
-subheading: Creating musicians, collaborators, and memories.
+subheading: NEW SITE UNDER CONSTRUCTION - Clark
 mainpitch:
   title: Pine View Bands
   description: >

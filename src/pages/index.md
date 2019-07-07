@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Pine View Bands  
+title: Pine View Music  
 image: /img/blurredband.png
 heading: Always Higher
 subheading: NEW SITE UNDER CONSTRUCTION - Clark

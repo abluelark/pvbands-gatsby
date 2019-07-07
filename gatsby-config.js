@@ -18,6 +18,26 @@ module.exports = {
       },
     },
     {
+	resolve: 'gatsby-plugin-prefetch-google-fonts',
+	options: {
+	fonts: [
+	   {
+            family: `Oswald`,
+            subsets: [`latin`],
+          },
+          {
+            family: `Open Sans`,
+            variants: [`400`, `700`]
+          },
+	  {
+	    family: `Roboto`,
+	    variants: [`400`, `400i`, `700`, `700i`]
+        }
+	],
+      },
+    }
+		
+	{
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,

@@ -134,17 +134,6 @@ const CollisionLink = React.forwardRef((props, ref) => (
   <Link innerRef={ref} to="/getting-started/installation/" {...props} />
 ));
 
-export default function ButtonRouter() {
-  return (
-    <Router>
-      <Button color="primary" component={AdapterLink} to="/">
-        Simple case
-      </Button>
-      <Button component={CollisionLink}>Avoids props collision</Button>
-    </Router>
-  );
-}
-
 const useStyles = makeStyles(theme => ({
   button: {
     margin: theme.spacing(1),

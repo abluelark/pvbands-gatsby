@@ -11,7 +11,9 @@ mainpitch:
     the technical, and intellectual growth of students who participate
     in any of fits programs.
 description: >-
-  Add and view our calendar. [Click me](https://calendar.google.com/calendar/r?cid=washk12.org_dgqfnontj4pckb0umrrsgo715g@group.calendar.google.com){: .btn}
+  Add and view our calendar. [Click me](https://calendar.google.com/calendar/r?cid=washk12.org_dgqfnontj4pckb0umrrsgo715g@group.calendar.google.com)
+  <ButtonToolbar>
+    <Button variant="primary">Primary</Button>
 intro:
   blurbs:
     - image: /img/coffee.png

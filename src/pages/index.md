@@ -11,10 +11,7 @@ mainpitch:
     the technical, and intellectual growth of studetns who participate
     in any of fits programs.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Add and view our calendar. [Click me](https://calendar.google.com/calendar/r?cid=washk12.org_dgqfnontj4pckb0umrrsgo715g@group.calendar.google.com){: .btn}
 intro:
   blurbs:
     - image: /img/coffee.png

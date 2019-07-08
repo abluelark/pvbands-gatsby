@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-import Button from '@material-ui/core/Button'
-import { makeStyles } from '@material-ui/core/styles';
+//import Button from '@material-ui/core/Button'
+//import { makeStyles } from '@material-ui/core/styles';
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
@@ -39,13 +39,15 @@ export const IndexPageTemplate = ({
         }}
       >
         <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+          //Title Font
+          className="has-text-weight-bold is-size-1-mobile is-size-1-tablet is-size-1-widescreen"
           style={{
             boxShadow:
               'rgb(59, 11, 11) 0.5rem 0px 0px, rgb(59, 11, 11) -0.5rem 0px 0px',
             backgroundColor: 'rgb(59, 11, 11)',
             color: 'white',
             lineHeight: '1',
+            fontSize: '3em',
             padding: '0.25em',
           }}
         >
@@ -87,7 +89,25 @@ export const IndexPageTemplate = ({
                     </h3>
                     <p>{description}</p>
                   </div>
+                </div>                
+                <div class="field is-grouped">
+                  <p class="control">
+                      <a href="https://calendar.google.com/calendar/r?cid=washk12.org_dgqfnontj4pckb0umrrsgo715g@group.calendar.google.com" class="button is-dark">
+                                 Calendar
+                      </a>
+                  </p>
+                  <p class="control">
+                    <a href="https://www.pineview.org" class="button is-dark">
+                      PVHS Homepage
+                    </a>
+                  </p>
+                  <p class="control">
+                    <a href="https://www.washk12.instructure.com" class="button is-dark">
+                      Canvas
+                    </a>
+                  </p>
                 </div>
+
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
@@ -97,7 +117,7 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
+                  <h3 className="has-text-weight-semibold is-size-1">
                     Latest stories
                   </h3>
                   <BlogRoll />
@@ -127,58 +147,6 @@ IndexPageTemplate.propTypes = {
     blurbs: PropTypes.array,
   }),
 }
-// MATERIAL BUTTONS
-const AdapterLink = React.forwardRef((props, ref) => <Link innerRef={ref} {...props} />);
-
-const CollisionLink = React.forwardRef((props, ref) => (
-  <Link innerRef={ref} to="/getting-started/installation/" {...props} />
-));
-
-const useStyles = makeStyles(theme => ({
-  button: {
-    margin: theme.spacing(1),
-  },
-  input: {
-    display: 'none',
-  },
-}));
-
-export default function ContainedButtons() {
-  const classes = useStyles();
-
-  return (
-    <div>
-      <Button variant="contained" className={classes.button}>
-        Default
-      </Button>
-      <Button variant="contained" color="primary" className={classes.button}>
-        Primary
-      </Button>
-      <Button variant="contained" color="secondary" className={classes.button}>
-        Secondary
-      </Button>
-      <Button variant="contained" color="secondary" disabled className={classes.button}>
-        Disabled
-      </Button>
-      <Button variant="contained" href="#contained-buttons" className={classes.button}>
-        Link
-      </Button>
-      <input
-        accept="image/*"
-        className={classes.input}
-        id="contained-button-file"
-        multiple
-        type="file"
-      />
-      <label htmlFor="contained-button-file">
-        <Button variant="contained" component="span" className={classes.button}>
-          Upload
-        </Button>
-      </label>
-    </div>
-  );
-}
-
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 

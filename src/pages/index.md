@@ -2,18 +2,17 @@
 templateKey: index-page
 title: Pine View Music  
 image: /img/blurredband.png
-heading: Calendar
-subheading: NEW SITE UNDER CONSTRUCTION - Clark
+heading: About the Site
+subheading: NEW SITE UNDER CONSTRUCTION
 mainpitch:
   title: Pine View Music
   description: >
     The purpose of the Pine View music department is to foster 
-    the technical, and intellectual growth of students who participate
+    the technical, emotional, and intellectual growth of students who participate
     in any of fits programs.
-description: >-
-  Add and view our calendar. [Click me](https://calendar.google.com/calendar/r?cid=washk12.org_dgqfnontj4pckb0umrrsgo715g@group.calendar.google.com)
-  <ButtonToolbar>
-    <Button variant="primary">Primary</Button>
+description: >- 
+    The site pineviewbands.org is currently being replaced by this new site which will eliminate our hosting costs!
+    Click on the links in the menu bar to learn more about Pine View Music! (Ignore the coffee :D)
 intro:
   blurbs:
     - image: /img/coffee.png

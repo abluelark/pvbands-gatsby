@@ -2,9 +2,9 @@ var proxy = require('http-proxy-middleware')
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Pine View Music',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'The finest musicians.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -17,27 +17,7 @@ module.exports = {
         name: 'uploads',
       },
     },
-    {
-	resolve: 'gatsby-plugin-prefetch-google-fonts',
-	options: {
-	fonts: [
-	   {
-            family: `Oswald`,
-            subsets: [`latin`],
-          },
-          {
-            family: `Open Sans`,
-            variants: [`400`, `700`]
-          },
-	  {
-	    family: `Roboto`,
-	    variants: [`400`, `400i`, `700`, `700i`]
-        }
-	],
-      },
-    },
-
-	{
+  	{
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,
